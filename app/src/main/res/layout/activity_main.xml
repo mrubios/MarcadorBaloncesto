@@ -117,19 +117,7 @@
 
 
 
-        <TextView
-            android:id="@+id/lblVisitante"
-            android:layout_margin="16dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Visitante"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="35dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -184,7 +172,21 @@
             </LinearLayout>
 
 
+
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/lblVisitante"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visitante"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
 </layout>
