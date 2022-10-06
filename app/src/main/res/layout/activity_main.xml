@@ -93,12 +93,13 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <Button
+            <ImageButton
                 android:id="@+id/btnRestart"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text="Reloj"
-                android:layout_margin="16dp"/>
+                android:layout_margin="16dp"
+                android:backgroundTint="@color/purple_500"
+                android:src="@mipmap/reloj" />
         <ImageView
             android:layout_width="145dp"
             android:layout_height="145dp"
