@@ -65,8 +65,7 @@ private int visitorScore=0;
         Intent intent = new Intent(this, ResultadoBasket.class);
         intent.putExtra("localScore", localScore);
         intent.putExtra("visitorScore", visitorScore);
-        startActivity(intent);
-    }
+        startActivity(intent);}
 
     private void resetScores(){
         localScore = 0;
